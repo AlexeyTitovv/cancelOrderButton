@@ -8,10 +8,11 @@ jQuery(document).ready(function($) {
         $.ajax({
             url: linkCancel,
             success: function(data) {
-                // var result = $('<div />').append(data).find('.woocommerce-orders-table').html();
-                // $('.woocommerce-orders-table').html(result);
                 $('.woocommerce-orders-table').html($('.woocommerce-orders-table',data).html());
-            }
+            },
+            // error: function () {
+            //     alert("Ошибка!");
+            // },
         });
     });
 });

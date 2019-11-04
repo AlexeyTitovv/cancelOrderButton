@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Test AJAX
+ * Plugin Name:       Cancel order button
  */
 
 
